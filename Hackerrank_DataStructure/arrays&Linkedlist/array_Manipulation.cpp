@@ -1,7 +1,7 @@
 
 long arrayManipulation(int n, vector<vector<int>> queries) 
 {
-    vector<long> newarr(n , 0);
+    vector<long> newarr(n+1 , 0);
     long  max = 0  ; 
     long sum = 0 ; 
     for(int i =0 ; i < queries.size();i++)
@@ -28,4 +28,5 @@ long arrayManipulation(int n, vector<vector<int>> queries)
     
 
 return max ; 
-}
+} 
+// Time Complexity: O(n)
