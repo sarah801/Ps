@@ -50,12 +50,12 @@ int main() {
     for (int i = 0 ; i < count ; i ++ )
     {
         cin>>input ; 
-           new_Node = insertNodeAthead(new_Node,input);
+    new_Node = insertNodeAthead(new_Node,input);
     }
-   
+
     
-     cin.clear(); 
-   printList(new_Node) ; 
+ cin.clear(); 
+ printList(new_Node) ; 
  
     return 0;
 }
